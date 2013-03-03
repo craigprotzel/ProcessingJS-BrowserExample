@@ -1,14 +1,21 @@
 <!DOCTYPE html>
 <html>
+	
 	<head>
 		<title>Full Screen Animation</title>
-		<link rel="stylesheet" type="text/css" href="styles/base.css" />
-		<script src="scripts/processing-1.4.1.min.js"></script>
-
+		<link rel="stylesheet" type="text/css" href="styles/base.css"/>
+		<script type="text/javascript" src="scripts/processing-1.4.1.min.js"></script>
+		<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
 	</head>
 
 	<body>
-		<div class="info">Click the color above to change it. Click again to stop.</div>
-		<canvas data-processing-sources="processing/full_screen_colors.pde"></canvas>
+		<canvas id="sketch" data-processing-sources="processing/full_screen_colors.pde"></canvas>
+		
+		<div id="controls">
+			<button id="toggle">OFF</button>
+		</div>
+
+		<script type="text/javascript" src="scripts/app.js"></script>
 	</body>
+
 </html>

@@ -1,4 +1,4 @@
-boolean change = false;
+//boolean change = false;
 int counter = 0;
 
 void setup(){
@@ -7,15 +7,15 @@ void setup(){
 }
 
 void draw(){
-  if (change){
+//  if (change){
     if (counter%60 == 0){
       background((int)random(255), (int)random(255), (int)random(255));
     }
     counter++;
-  }
-  
+//  }
+
 }
 
-void mousePressed(){
-  change = !change;
-}
+//void mousePressed(){
+//  change = !change;
+//}
