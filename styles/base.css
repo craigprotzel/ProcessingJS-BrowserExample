@@ -1,0 +1,25 @@
+* { padding: 0;
+	margin: 0; 
+	overflow: hidden;
+}
+
+body{
+	/*background-color: #EEE;*/
+	font-family: "Lucida Grande", Geneva, Verdana, Arial, sans-serif;
+	font-size: 14pt;
+	line-height: 18pt;
+}
+
+/*canvas{
+	margin: 0px;
+	padding: 0px;
+	position: fixed;
+}*/
+
+
+.info{
+	position: fixed;
+	background-color: white;
+	margin-top: 75px;
+	margin-left: 5%;
+}
