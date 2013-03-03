@@ -11,8 +11,9 @@ body{
 
 
 button{
+	position: fixed;
 	height: 30px;
 	width: 60px;
-	margin-top: 10px;
-	margin-left: 50px;
+	margin-top: 40px;
+	margin-left: 45%;
 }

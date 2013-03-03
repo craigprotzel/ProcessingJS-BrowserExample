@@ -5,7 +5,7 @@ function switchSketchState(curState) {
 	if (!processingInstance) {
 		processingInstance = Processing.getInstanceById('sketch');
 	}
-	if (curState === true) {
+	if (curState == true) {
 		processingInstance.loop();  // call Processing loop() function
 	} else {
 		processingInstance.noLoop(); // stop animation, call noLoop()
@@ -21,9 +21,9 @@ $(document).ready(function() {
 		switchSketchState(state);
 		state = !state;
 		if (state){
-			$('#toggle').html("ON");
+			$('#toggle').html("START");
 		} else { 
-			$('#toggle').html("OFF");
+			$('#toggle').html("STOP");
 		}
 	});
 
