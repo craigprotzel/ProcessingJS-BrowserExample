@@ -1,4 +1,5 @@
 A basic example for using Processing JS in the browser.
+Example changes the color of the background every second.
 Based off the "Accessing Processing From JS" example on the Processing JS site
 
 http://processingjs.org/articles/jsQuickStart.html#accessingprocessingfromjs
